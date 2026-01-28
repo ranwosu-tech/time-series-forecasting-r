@@ -34,7 +34,7 @@ This project applies time series forecasting techniques to monthly wage data (20
 ## Deliverables
 - Project report (PDF)
 - Key plots (added in the `images/` folder)
-- - Code: Available upon request (RMarkdown)
+- Code: Available upon request (RMarkdown)
 
 ## How to Review Quickly
 1. Open the project report PDF in this repo.
