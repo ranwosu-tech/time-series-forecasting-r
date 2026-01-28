@@ -3,6 +3,12 @@
 ## Overview
 This project applies time series forecasting techniques to monthly wage data (2001–2019). The goal is to build and evaluate forecasting models and communicate results in a clear, decision-oriented way.
 
+## Results
+- Selected **ARIMA(3,1,0)** based on **AIC/BIC** and **residual diagnostics**
+- Evaluated using **1-step-ahead rolling forecasts** with **MSFE** and **MAFE**
+- Compared candidate models using the **Diebold–Mariano test**
+- Produced forecasts with **prediction intervals** to support decision-making
+
 ## Key Visuals
 ### Forecast (ARIMA)
 <p align="center">
