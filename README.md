@@ -9,6 +9,12 @@ This project applies time series forecasting techniques to monthly wage data (20
 - Evaluated models using **1-step-ahead rolling forecasts** (train: **2001–2010**, test: **2011–2019**) with **MSFE/MAFE**.
 - Compared forecast accuracy with the **Diebold–Mariano test** (**p ≈ 0.55**), showing no significant difference vs **ARIMA(1,1,2)**, so **ARIMA(3,1,0)** was chosen for simplicity.
 
+## Data
+- **Source:** Statistics Canada (Real-Time Data Tables), **Table 14-10-0331-01**.
+- **Series:** Monthly **average weekly earnings (including overtime pay)** (Canada; **all industries**; **seasonally adjusted**).
+- **Time period:** **January 2001 – December 2019** (**228 monthly observations**).
+- **Notes:** This series is derived from the **Labour Force Survey** and includes historical revisions in the Statistics Canada portal.
+
 ## Key Visuals
 ### Forecast (ARIMA)
 <p align="center">
