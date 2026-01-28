@@ -3,6 +3,14 @@
 ## Overview
 This project applies time series forecasting techniques to monthly wage data (2001–2019). The goal is to build and evaluate forecasting models and communicate results in a clear, decision-oriented way.
 
+## Key Visuals
+
+### Forecast (ARIMA)
+![Forecast of wages using ARIMA](images/forecast_arima310.png)
+
+### Seasonality by Month
+![Seasonality by month](images/seasonality_by_month.png)
+
 ## Tools
 - R (forecasting, diagnostics, evaluation)
 - Excel (light preprocessing)
